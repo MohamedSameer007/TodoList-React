@@ -38,7 +38,7 @@ const App = () => {
 
       <div className='input-box'>
         <div className='input-content'>
-          <input type='text' onChange={(e) => setType(e.target.value)} onKeyDown={(e) => {if(e.key === 'Enter') {additem()}}}   ></input>
+          <input type='text' onChange={(e) => setType(e.target.value)} onKeyDown={(e) => {if(e.key === 'Enter') {additem()}}} placeholder='type here'   ></input>
           <button onClick={additem}>Add</button>
         </div>
       </div>
